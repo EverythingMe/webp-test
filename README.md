@@ -52,7 +52,7 @@ used).
   * To compare the resulting image to the flatten PNG, it was converted back to PNM and then to PNG using djpeg and convert.
   * The DSSIM index of the resulting PNG with the original image with alpha channel removed was calculated.
   * The process above was iterated until an JPEG image with a DSSIM similar to the WebP image was found (we allowed the JPEG DSSIM to be higher than the WebP one, which favours the JPEG size). This allowed us to compare the size of similar images.
-  * The script used for the above process is (https://github.com/EverythingMe/webp-test/blob/master/webp-test.rb)[available on Github].
+  * The script used for the above process is [available on Github](https://github.com/EverythingMe/webp-test/blob/master/webp-test.rb).
 
 ## Results
 
@@ -92,7 +92,7 @@ WebP constantly provides better results:
 
 ![Ratio of WebP to JPEG compression at given sizes](webp-to-jpeg.png)
 
-The (https://github.com/EverythingMe/webp-test/blob/master/results.dat)[full data set] is provided.
+The [full data set](https://github.com/EverythingMe/webp-test/blob/master/results.dat) is provided.
 
 ## Conclusion
 
